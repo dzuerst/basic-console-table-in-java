@@ -10,6 +10,11 @@ public class TableConsole {
      * 
      * full format left alignment table
      * %-ntype
+     * 
+     * n = number of space - 2
+     * notice that the number column name width is 17 (contains 17 char '-')
+     * so n = 15
+     * and the type is string (column name)
      */
 
     public static void main(String[] args) {
